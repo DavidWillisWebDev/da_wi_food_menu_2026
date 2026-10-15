@@ -1,0 +1,235 @@
+{
+    "data": [
+       {
+          "name": "Eggs",
+          "description": "Comes in all sorts of different types, such as boiled, scrambled, sunny-side up, and fried. May also be a side dish.",
+          "price": 3.99,
+          "img": "images/eggs.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "Toast",
+          "description": "We cooked bread. What a major achievement.",
+          "price": 1.99,
+          "img": "images/toast.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "Pancakes",
+          "description": "Comes in all different types, such as blueberry, strawberry, chocolate chip. There's also syrup.",
+          "price": 1.99,
+          "img": "images/pancakes.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "Waffles",
+          "description": "Comes in all different types, such as blueberry, strawberry, chocolate chip. There's also syrup.",
+          "price": 1.99,
+          "img": "images/waffles.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "French Toast",
+          "description": "Another type of toast. This time, it has an egg wash coating. Also has eggs and syrup.",
+          "price": 3.99,
+          "img": "images/french-toast.png",
+          "category": "Breakfast"
+       },
+       {
+            "name": "Hamburger",
+            "description": "Despite its name, it's made with beef, not ham. It's also not labeled as a sandwich, either.",
+            "price": 3.99,
+            "img": "images/hamburger.png",
+            "category": "Entree"
+       },
+       {
+          "name": "Sandwich",
+          "description": "All you need are two slices of bread. After that, just pick whatever item, basically.",
+          "price": 3.99,
+          "img": "images/sandwich.png",
+          "category": "Entree"
+     },
+       {
+          "name": "Steak",
+          "description": "You have the option to have it grilled or smoked. Don't worry about it mooing, though.",
+          "price": 3.99,
+          "img": "images/steak.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Pork Chops",
+          "description": "You have the option to have it grilled or smoked. Don't worry about it oinking, though.",
+          "price": 3.99,
+          "img": "images/pork-chop.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Brisket",
+          "description": "Another beef option. Don't worry about it mooing, though.",
+          "price": 3.99,
+          "img": "images/brisket.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Chicken",
+          "description": "You have the option to have it grilled or smoked. Don't worry about it flying, though.",
+          "price": 3.99,
+          "img": "images/chicken.png",
+          "category": "Entree"
+       },
+       {
+            "name": "Fries",
+            "description": "One of many types of potato. Also known as chips in some places. Sizes include: Small, Medium, and Large.",
+            "price": 0.99,
+            "img": "images/fries.png",
+            "category": "Sides"
+       },
+       {
+          "name": "Corn",
+          "description": "You can have it either on the cob or off the cob.",
+          "price": 0.99,
+          "img": "images/corn.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Bacon",
+          "description": "It's bacon.",
+          "price": 0.99,
+          "img": "images/bacon.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Sausage",
+          "description": "An alternative to bacon.",
+          "price": 0.99,
+          "img": "images/sausage.png",
+          "category": "Sides"
+       },
+     {
+          "name": "Green Beans",
+          "description": "Green Beans.",
+          "price": 0.99,
+          "img": "images/green-beans.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Hash Browns",
+          "description": "Another type of potato. Comes in all sorts of different types.",
+          "price": 0.99,
+          "img": "images/hash-browns.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Mashed Potatoes",
+          "description": "Yet another type of potato. Also has gravy.",
+          "price": 0.99,
+          "img": "images/mashed-potatoes.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Okra",
+          "description": "Okra.",
+          "price": 0.99,
+          "img": "images/okra.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Salad",
+          "description": "Just throw in any vegetable combination you can think of.",
+          "price": 0.99,
+          "img": "images/salad.png",
+          "category": "Sides"
+       },
+       {
+         "name": "Banana Split",
+         "description": "Banana split.",
+         "price": 3.99,
+         "img": "images/banana-split.png",
+         "category": "Dessert"
+       },
+       {
+          "name": "Chocolate Sundae",
+          "description": "Chocolate sundae.",
+          "price": 3.99,
+          "img": "images/chocolate-sundae.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Vanilla Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/vanilla-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Chocolate Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/chocolate-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Strawberry Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/strawberry-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Water",
+          "description": "Made with two hydrogen molecules and one oxygen molecule.",
+          "price": 1.75,
+          "img": "images/water.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Orange Juice",
+          "description": "Also known as the nectar of life by some.",
+          "price": 3.99,
+          "img": "images/orange-juice.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Lemonade",
+          "description": "Made with lemons and sugar. Not to be confused with lemon juice.",
+          "price": 3.99,
+          "img": "images/lemonade.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Limeade",
+          "description": "Made with limes and sugar. Not to be confused with lemon juice.",
+          "price": 3.99,
+          "img": "images/limeade.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Soda",
+          "description": "Coca-Cola, Diet Coke, Coca-Cola Zero, Pepsi, 7-Up, Sprite, Dr. Pepper, A&W Root Beer.",
+          "price": 3.99,
+          "img": "images/soda-display.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Coffee",
+          "description": "Black coffee, espresso, cappuccino, latte. Our seasonal one is pumpkin spice latte.",
+          "price": 3.99,
+          "img": "images/coffee.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Sweet Tea",
+          "description": "Sweet tea.",
+          "price": 3.99,
+          "img": "images/sweet-tea.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Green Tea",
+          "description": "Green tea.",
+          "price": 3.99,
+          "img": "images/green-tea.png",
+          "category": "Drinks"
+     }
+    ]
+}

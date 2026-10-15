@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Placeholder Diner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title"><i>Placeholder Diner</i></div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="button" onclick="showItems('breakfast-label')" class="category-button">Breakfast</button>
+        <button class="button" onclick="showItems('entree-label')" class="category-button">Entrees</button>
+        <button class="button" onclick="showItems('sides-label')" class="category-button">Sides</button>
+        <button class="button" onclick="showItems('dessert-label')" class="category-button">Dessert</button>
+        <button class="button" onclick="showItems('drinks-label')" class="category-button">Drinks</button>
+      </div>
+    </div>
+    <!-- Sections for the food items -->
+    <div class="content">
+      <h1 id="breakfast-label">Breakfast</h1>
+      <div class="food-item-container" id="breakfast-container"></div>
+      <h1 id="entree-label">Entrees</h1>
+      <div class="food-item-container" id="entree-container"></div>
+      <h1 id="sides-label">Sides</h1>
+      <div class="food-item-container" id="sides-container"></div>
+      <h1 id="dessert-label">Dessert</h1>
+      <div class="food-item-container" id="dessert-container"></div>
+      <h1 id="drinks-label">Drinks</h1>
+      <div class="food-item-container" id="drinks-container"></div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>

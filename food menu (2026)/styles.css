@@ -1,0 +1,112 @@
+* {
+  font-weight: bold;
+  font-family: 'Times New Roman';
+}
+
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  background-color: #dd8222;
+  -webkit-text-stroke: 1px black;
+  padding: 5px;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+  color: #3e3eae;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 75px;
+  color: #b4e1e1;
+  margin: 20px;
+  -webkit-text-stroke: 1px black;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  background-color: #1c386f;
+  padding-bottom: 50px;
+}
+
+button {
+  height: 65px;
+  font-size: 50px;
+  padding: 5px;
+  user-select: none;
+  color: #b4e1e1;
+  border: 2px solid #2a996f;
+  background-color: #362182;
+}
+
+button:hover {
+  color: #98bfbf;
+  border: 2px solid #206a4e;
+  background-color: #291c56;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 5px;
+}
+
+.category-button {
+  border: none;
+  background: none;
+}
+
+/* This contains everything associated with the food. */
+.food-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  border: 5px solid rgb(33, 173, 129);
+  background-color: azure;
+}
+
+/* This adjusts the image's position in relation to the text. */
+.food-item {
+  display: flex;
+  margin: 20px 20px;
+}
+
+.image-food {
+  /* Any image of a food item use this class. */
+  /* This class takes in factors such as size, borders. */
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 0px 20px;
+}
+
+.food-text {
+  /* This adjusts the description's text. */
+  width: 260px;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+.food-title {
+  /* This displays the item's name and price. */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
